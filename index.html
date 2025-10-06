@@ -41,6 +41,24 @@
             opacity: 0.9;
         }
         
+        .certifications {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        
+        .cert-badge {
+            background: rgba(255,255,255,0.25);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
         .contact-bar {
             background: rgba(255,255,255,0.15);
             backdrop-filter: blur(10px);
@@ -140,6 +158,7 @@
         .project-card:nth-child(1) { animation-delay: 0.5s; }
         .project-card:nth-child(2) { animation-delay: 0.6s; }
         .project-card:nth-child(3) { animation-delay: 0.7s; }
+        .project-card:nth-child(4) { animation-delay: 0.8s; }
         
         .project-card:hover {
             transform: translateY(-10px);
@@ -286,7 +305,12 @@
     <div class="container">
         <div class="header">
             <h1>GAURAV MAURYA</h1>
-            <p>Data Analyst | Python & SQL Automation Specialist</p>
+            <p>Data Analyst | Financial Analytics & Automation Specialist</p>
+            <div class="certifications">
+                <span class="cert-badge">🏆 KPMG Data Analyst</span>
+                <span class="cert-badge">☁️ AWS Cloud Foundations</span>
+                <span class="cert-badge">🔷 Oracle Cloud Infrastructure</span>
+            </div>
         </div>
         
         <div class="contact-bar">
@@ -307,12 +331,12 @@
                 <div class="stat-label">Faster Data Imports</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">3+</div>
-                <div class="stat-label">Major Projects Delivered</div>
+                <div class="stat-number">50%</div>
+                <div class="stat-label">Financial Reporting Time Cut</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Automation-Focused</div>
+                <div class="stat-number">25%</div>
+                <div class="stat-label">Space Optimization</div>
             </div>
         </div>
         
@@ -322,8 +346,27 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
+                        <h3>Financial Budget Variance Analysis</h3>
+                        <div class="date">Jan 2025 - Feb 2025</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Conducted comprehensive month-over-month financial trend analysis and developed interactive Power BI dashboard with variance visualization and KPI tracking.</p>
+                        <div class="impact-metric">
+                            <strong>Impact:</strong> Revealed 15% overspending in operational expenses and reduced financial reporting time by 50%
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Financial Modeling</span>
+                            <span class="tech-tag">KPI Tracking</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
                         <h3>Data Quality Automation</h3>
-                        <div class="date">iDEX-DIO | Feb 2025 - Jun 2025</div>
+                        <div class="date">iDEX-DIO | Jun 2025 - Sep 2025</div>
                     </div>
                     <div class="project-body">
                         <p>Engineered a Python-based SQL automation script integrated with Power Automate to streamline data comparison between Snowflake and Power BI.</p>
@@ -343,12 +386,12 @@
                 <div class="project-card">
                     <div class="project-header">
                         <h3>E-Commerce Data Pipeline</h3>
-                        <div class="date">Jan 2025</div>
+                        <div class="date">Apr 2025 - May 2025</div>
                     </div>
                     <div class="project-body">
-                        <p>Built automated data import system using Python and MySQL, transforming data processing workflow with visual reporting capabilities.</p>
+                        <p>Built automated data import system using Python and MySQL, transforming data processing workflow with comprehensive visual reporting capabilities.</p>
                         <div class="impact-metric">
-                            <strong>Impact:</strong> 90% reduction in import time with comprehensive visual reports for actionable insights
+                            <strong>Impact:</strong> 90% reduction in import time with actionable visual insights
                         </div>
                         <div class="tech-tags">
                             <span class="tech-tag">Python</span>
@@ -361,20 +404,19 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>AWS Serverless Deployment</h3>
-                        <div class="date">Sep 2024 - Nov 2024</div>
+                        <h3>Office Space Planning with AutoCAD</h3>
+                        <div class="date">Sep 2025</div>
                     </div>
                     <div class="project-body">
-                        <p>Deployed containerized Flask application on AWS using ECS Fargate and ECR, implementing serverless architecture for cost optimization.</p>
+                        <p>Designed a 1000 sq ft modern office layout for a data analytics team using AutoCAD 2D drafting tools, incorporating 6 workstations, 2 meeting rooms, and a server room.</p>
                         <div class="impact-metric">
-                            <strong>Impact:</strong> Zero infrastructure management overhead with optimized resource utilization and costs
+                            <strong>Impact:</strong> 25% space optimization through strategic furniture placement and ergonomic design
                         </div>
                         <div class="tech-tags">
-                            <span class="tech-tag">AWS ECS</span>
-                            <span class="tech-tag">AWS Fargate</span>
-                            <span class="tech-tag">ECR</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">AutoCAD</span>
+                            <span class="tech-tag">2D Drafting</span>
+                            <span class="tech-tag">Space Planning</span>
+                            <span class="tech-tag">Technical Documentation</span>
                         </div>
                     </div>
                 </div>
@@ -390,34 +432,34 @@
                         <li>Python</li>
                         <li>SQL / MySQL</li>
                         <li>JavaScript</li>
-                        <li>C++</li>
+                        <li>Snowflake</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h4>Analytics & BI</h4>
                     <ul>
                         <li>Power BI</li>
-                        <li>Excel (Advanced)</li>
-                        <li>Snowflake</li>
+                        <li>Excel (Financial Modeling)</li>
+                        <li>Financial Forecasting</li>
                         <li>Data Visualization</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h4>Cloud & DevOps</h4>
+                    <h4>Tools & Design</h4>
                     <ul>
-                        <li>AWS (ECS, Fargate, ECR)</li>
-                        <li>Git / GitHub</li>
-                        <li>Docker</li>
+                        <li>AutoCAD</li>
                         <li>Power Automate</li>
+                        <li>AWS Cloud</li>
+                        <li>Git / GitHub</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h4>Soft Skills</h4>
+                    <h4>Core Competencies</h4>
                     <ul>
+                        <li>Financial Analysis</li>
+                        <li>Process Automation</li>
                         <li>Problem Solving</li>
-                        <li>Collaboration</li>
-                        <li>Communication</li>
-                        <li>Public Speaking</li>
+                        <li>Data-Driven Insights</li>
                     </ul>
                 </div>
             </div>
